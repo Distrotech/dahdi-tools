@@ -166,7 +166,7 @@ sub new($$$$$$) {
 	} elsif ($fqn =~ m{\bztgsm/.*}) {
 		# Junghanns GSM card
 		$type = "GSM";
-	} elsif($signalling ne '') {
+	} elsif (($signalling ne '') && ($info ne "")) {
 		$type = 'FXO' if $signalling =~ /^FXS/;
 		$type = 'FXS' if $signalling =~ /^FXO/;
 	} else {
