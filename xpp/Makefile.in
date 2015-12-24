@@ -496,7 +496,7 @@ top_builddir = @top_builddir@
 top_srcdir = @top_srcdir@
 udevrulesdir = @udevrulesdir@
 SUBDIRS = $(am__append_2) $(am__append_3)
-man_MANS = $(perl_mans) $(am__append_4)
+man_MANS = $(am__append_4)
 
 # FIXME: try to improve code, so we can use $(PEDANTIC)
 #PEDANTIC	= -ansi -pedantic -std=c99
